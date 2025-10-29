@@ -1,0 +1,20 @@
+/* Define o corpo para ocupar a tela inteira */
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow: hidden; /* Evita barras de rolagem ao mover */
+}
+
+/* O mais importante: 'position: absolute' permite que 'top' e 'left' sejam controlados. */
+#imagemMovel {
+    position: absolute;
+    width: 100px; /* Exemplo: ajuste o tamanho */
+    height: 100px; /* Exemplo: ajuste o tamanho */
+    /* Define a posição inicial */
+    top: 50px;
+    left: 50px;
+
+    /* (Opcional) Adiciona uma transição suave para que o movimento não seja brusco */
+    transition: top 0.1s linear, left 0.1s linear;
+}
