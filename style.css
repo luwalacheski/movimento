@@ -9,8 +9,8 @@ body {
 /* O mais importante: 'position: absolute' permite que 'top' e 'left' sejam controlados. */
 #imagemMovel {
     position: absolute;
-    width: 200px; /* Exemplo: ajuste o tamanho */
-    height: 200px; /* Exemplo: ajuste o tamanho */
+    width: 500px; /* Exemplo: ajuste o tamanho */
+    height: 500px; /* Exemplo: ajuste o tamanho */
     /* Define a posição inicial */
     top: 50px;
     left: 50px;
